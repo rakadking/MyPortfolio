@@ -35,6 +35,19 @@ body{
     height: 100vh;
     background-color:#303841;
 }
+#my-photo{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid rgb(122, 230, 10);
+}
+#my-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2vw;
+}
 #welcome-section h1{
     display: block;
     text-align: center;
